@@ -1,18 +1,16 @@
 #include <stdio.h>
-#include <stdbool.h>
 
-int main() {
-    int divi_diez = 10;
-    int divi_cien = 100;
-    int divi_mil = 1000;
-    int p1 = 1;
-    int p2 = 2;
-    int p3 = 3;
-    int p4 = 4;
-    int codigo;
-    int d1, d2, d3, d4;
-    int digito_veri;
-    int codigo_vali;
+void main() {
+    int DIVI_DIEZ = 10;
+    int DIVI_CIEN = 100;
+    int DIVI_MIL = 1000;
+    int P1 = 1;
+    int P2 = 2;
+    int P3 = 3;
+    int P4 = 4;
+    int codigo = 0;
+    int d1, d2, d3, d4 = 0;
+    int digito_veri, codigo_vali = 0;
 
     printf("Por favor ingrese el codigo: ");
     scanf("%d", &codigo);
@@ -41,6 +39,5 @@ int main() {
     printf("Error: por favor ingrese un codigo de 4 digitos: \n");
      
     }
-
     
 }
