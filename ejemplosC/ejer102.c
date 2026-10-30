@@ -5,6 +5,7 @@ void main() {
 int z, s = 0;
 int cociente, residuo = 0;
 float diferencia, promedio = 0.0;
+int condicion;
 
 printf("Ingrese el primer numero: ");
 scanf("%d", &z);
@@ -12,7 +13,9 @@ scanf("%d", &z);
 printf("Ingrese el segundo numero: ");
 scanf("%d", &s);
 
-if (s != 0) {
+condicion = (s != 0);
+
+if (condicion) {
     cociente = z / s;
     residuo = z % s;
 
