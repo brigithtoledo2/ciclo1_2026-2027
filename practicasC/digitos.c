@@ -14,8 +14,8 @@ void main() {
 
     if (numero>= 100 && numero<= 999) {
         unidad = numero % 10;
-        decena = (numero / 100) % 10;
-        centena = (numero / 10) % 10;
+        decena = (numero / 10 % 10) * 10;
+        centena = (numero / 100) * 100;
 
         suma = unidad + decena + centena;
 
